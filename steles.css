@@ -1,0 +1,35 @@
+.app {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.col {
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: chartreuse;
+}
+
+ul {
+
+    list-style: none;
+}
+ 
+ul > li {
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: .2s all;
+}
+ul >li:hover {
+    background: #ccc;
+}
